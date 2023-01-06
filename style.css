@@ -16,8 +16,8 @@
 }
 .content{
     background: #202731;
-    width: 45vh;
-    height: 45vh;
+    min-width: 55vh;
+    min-height: 55vh;
     border-radius: 30px;
     padding: 2rem;
 }
@@ -78,6 +78,8 @@
     letter-spacing: 2px;
     font-weight: bold;
     cursor: pointer;
+    border: none;
+    outline: none;
     
 }
 .numaralar .star:hover{
